@@ -3,541 +3,370 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>David Laport — Zijden korsetjurk met struisvogelveren · 2018 · Rijksmuseum</title>
-
-  <!--
-  ╔══════════════════════════════════════════════════════════════════════╗
-  ║  MUSEUM TENTOONSTELLING — DAVID LAPORT · DE FLAMINGO-JURK · 2018   ║
-  ║  Rijksmuseum Fashion Collectie                                       ║
-  ╠══════════════════════════════════════════════════════════════════════╣
-  ║  FOTO-SWAP INSTRUCTIES — zoek op "FOTO-SWAP" in dit bestand:        ║
-  ║                                                                      ║
-  ║  slide-1.jpg        Hoofdfoto jurk (frontaal, op paspop)            ║
-  ║  slide-2.jpg        Detail struisvogelveren                          ║
-  ║  slide-3.jpg        Rihanna op Barbados Carnival 2018               ║
-  ║  slide-4.jpg        Jurk in museum-presentatie                       ║
-  ║  jurk-info.jpg      Foto voor de informatie-sectie (links)          ║
-  ║  laport-portret.jpg Portretfoto David Laport                         ║
-  ╚══════════════════════════════════════════════════════════════════════╝
-  -->
+  <title>Flamingo Jurk Zijden korsetjurk met struisvogelveren · David Laport · 2018</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAV -->
 <nav class="nav" id="nav">
-  <a href="#hero" class="nav-logo">Rijksmuseum · Fashion Collectie</a>
-  <ul class="nav-menu">
-    <li><a href="#the-dress">De Jurk</a></li>
-    <li><a href="#over-de-jurk">Over</a></li>
-    <li><a href="#viraal">Viraal</a></li>
-    <li><a href="#de-ontwerper">Ontwerper</a></li>
-    <li><a href="#installatie">Installatie</a></li>
+  <a href="#hero" class="nav-logo">Amsterdam Museum · Fashion Collectie</a>
+
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu openen">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <ul class="nav-menu" id="nav-menu">
+    <li><a href="#de-jurk"      onclick="sluitMenu()">De Jurk</a></li>
+    <li><a href="#over"         onclick="sluitMenu()">Over</a></li>
+    <li><a href="#galerij"      onclick="sluitMenu()">Galerij</a></li>
+    <li><a href="#video"        onclick="sluitMenu()">Video</a></li>
+    <li><a href="#viraal"       onclick="sluitMenu()">Viraal</a></li>
+    <li><a href="#ontwerper"    onclick="sluitMenu()">Ontwerper</a></li>
   </ul>
 </nav>
 
+<section id="hero" class="hero">
 
-<!-- ══════════════════════════════════════════
-     §1 HERO
-══════════════════════════════════════════ -->
-<section id="hero">
-  <div class="hero-glow"></div>
-  <div id="particles" aria-hidden="true"></div>
-  <div class="hero-orn"  aria-hidden="true"></div>
+  <div class="hero-achtergrond" aria-hidden="true"></div>
 
-  <div class="hero-content">
-    <p class="hero-eyebrow">Mode · Museum · Collectie</p>
-    <h1 class="hero-title">David<br><em>Laport</em></h1>
-    <p class="hero-sub">Zijden korsetjurk met struisvogelveren &ensp;·&ensp; 2018</p>
-    <div class="hero-rule"></div>
-    <p class="hero-cue">Scroll om te ontdekken</p>
+  <div class="hero-inhoud">
+    <p class="hero-label">Mode · Museum · Collectie</p>
+    <h1 class="hero-titel">Flamingo<br><em>Jurk</em></h1>
+    <p class="hero-ondertitel">Zijden korsetjurk met struisvogelveren · 2018</p>
+    <div class="hero-lijn"></div>
+    <p class="hero-scroll">Scroll om te ontdekken</p>
   </div>
+
 </section>
 
+<section id="de-jurk" class="sectie sectie-donker">
 
-<!-- FEATHER DIVIDER (dark) -->
-<div class="fdiv" style="background:var(--near-black);color:var(--lpink);" aria-hidden="true">
-  <div class="rule"></div>
-  <svg viewBox="0 0 32 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M16 2C9 14 7 32 10 50c1.5 6 4 11 6 13 2-2 4.5-7 6-13C25 32 23 14 16 2Z"/>
-    <line x1="16" y1="2" x2="16" y2="63" stroke="rgba(255,255,255,.3)" stroke-width=".7" fill="none"/>
-    <path d="M16 16c-4 5-6 14-4 24" stroke="rgba(255,255,255,.22)" stroke-width=".6" fill="none"/>
-    <path d="M16 16c4 5 6 14 4 24"  stroke="rgba(255,255,255,.22)" stroke-width=".6" fill="none"/>
-  </svg>
-  <div class="rule"></div>
-</div>
-
-
-<!-- ══════════════════════════════════════════
-     §2 THE DRESS — SLIDESHOW
-══════════════════════════════════════════ -->
-<section id="the-dress">
-  <div class="sec-head rev">
-    <span class="sec-tag">Collectiestuk · Object 2018</span>
-    <h2 class="sec-title sec-title--light">De Jurk</h2>
+  <div class="sectie-hoofd">
+    <span class="label">Collectiestuk · Object 2018</span>
+    <h2 class="sectie-titel wit">De Jurk</h2>
   </div>
 
-  <div class="sw-wrap">
-    <div class="spot-l" aria-hidden="true"></div>
-    <div class="spot-r" aria-hidden="true"></div>
+  <div class="slideshow-omslag">
 
     <div class="slideshow" id="slideshow">
 
-      <!-- FOTO-SWAP: verwijder <div class="slide-ph"> en voeg in:
-           <img src="slide-1.jpg" alt="David Laport jurk, frontaal"> -->
-      <div class="slide active" id="s0">
-        <div class="slide-ph">
-          <svg class="ph-icon" viewBox="0 0 56 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M28 4C16 4 6 14 6 28c0 20 10 36 22 48C40 64 50 48 50 28 50 14 40 4 28 4Z" stroke="rgba(255,182,193,.5)" stroke-width="1.5"/>
-            <path d="M28 4c-6 12-8 24-8 34" stroke="rgba(255,182,193,.3)" stroke-width="1" fill="none"/>
-            <path d="M28 4c6 12 8 24 8 34"  stroke="rgba(255,182,193,.3)" stroke-width="1" fill="none"/>
-            <circle cx="28" cy="30" r="4" fill="rgba(255,105,180,.45)"/>
-          </svg>
-          <p class="ph-lbl">Foto 1<small>Voeg jurk-afbeelding in</small></p>
-        </div>
+      <div class="slide actief" id="slide-0">
+        <img src="img/_.._DAT_Collectie_images_S_7230_000.jpg" alt="Zijden korsetjurk met struisvogelveren — museumfoto">
       </div>
 
-      <!-- FOTO-SWAP: <img src="slide-2.jpg" alt="Detail struisvogelveren"> -->
-      <div class="slide" id="s1">
-        <div class="slide-ph">
-          <svg class="ph-icon" viewBox="0 0 56 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="28" cy="44" rx="20" ry="30" stroke="rgba(255,182,193,.5)" stroke-width="1.5"/>
-            <path d="M14 24Q28 16 42 24" stroke="rgba(255,182,193,.3)" stroke-width="1" fill="none"/>
-            <circle cx="28" cy="18" r="6" stroke="rgba(255,182,193,.4)" stroke-width="1"/>
-          </svg>
-          <p class="ph-lbl">Foto 2<small>Detail struisvogelveren</small></p>
-        </div>
+      <div class="slide" id="slide-1">
+        <img src="img/rihannacropoverfest2019v1-7.avif" alt="Rihanna draagt de flamingo-jurk op het Barbados Crop Over Festival 2018">
       </div>
 
-      <!-- FOTO-SWAP: <img src="slide-3.jpg" alt="Rihanna op Barbados Carnival 2018"> -->
-      <div class="slide" id="s2">
-        <div class="slide-ph">
-          <svg class="ph-icon" viewBox="0 0 56 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="28" cy="20" r="11" stroke="rgba(255,182,193,.5)" stroke-width="1.5"/>
-            <path d="M17 33Q28 28 39 33L44 76 12 76Z" stroke="rgba(255,182,193,.5)" stroke-width="1.5"/>
-          </svg>
-          <p class="ph-lbl">Foto 3<small>Rihanna · Barbados Carnival 2018</small></p>
-        </div>
+      <div class="slide" id="slide-2">
+        <img src="img/16927084-7323991-image-m-107_1565043646559.jpg" alt="David Laport flamingo-jurk detail">
       </div>
 
-      <!-- FOTO-SWAP: <img src="slide-4.jpg" alt="Jurk in museum presentatie"> -->
-      <div class="slide" id="s3">
-        <div class="slide-ph">
-          <svg class="ph-icon" viewBox="0 0 56 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="6" width="36" height="56" rx="2" stroke="rgba(255,182,193,.5)" stroke-width="1.5"/>
-            <line x1="10" y1="24" x2="46" y2="24" stroke="rgba(255,182,193,.25)" stroke-width="1"/>
-            <circle cx="28" cy="50" r="6" stroke="rgba(255,182,193,.3)" stroke-width="1"/>
-          </svg>
-          <p class="ph-lbl">Foto 4<small>Museum presentatie</small></p>
-        </div>
+      <div class="slide" id="slide-3">
+        <img src="img/16922598-7323991-image-m-56_1565034523427.jpg" alt="David Laport flamingo-jurk perspectief">
       </div>
 
-      <div class="slide-dots">
-        <button class="dot active" data-n="0" aria-label="Slide 1"></button>
-        <button class="dot"        data-n="1" aria-label="Slide 2"></button>
-        <button class="dot"        data-n="2" aria-label="Slide 3"></button>
-        <button class="dot"        data-n="3" aria-label="Slide 4"></button>
+      <div class="slide" id="slide-4">
+        <img src="img/2269272d0e294492d9a92a393f4ec8a3.webp" alt="Flamingo-jurk detail struisvogelveren">
       </div>
-    </div><!-- /slideshow -->
 
-    <button class="s-btn prev" id="s-prev" aria-label="Vorige">&#8592;</button>
-    <button class="s-btn next" id="s-next" aria-label="Volgende">&#8594;</button>
-  </div><!-- /sw-wrap -->
+      <div class="slide" id="slide-5">
+        <img src="img/2a5360ee3a79710c_BGUS_1677023_013.webp" alt="Flamingo-jurk volledige look">
+      </div>
 
-  <div style="text-align:center;">
-    <button class="ds-btn" id="ds-btn">
-      <span class="dicon" id="dicon">&#8635;</span>
-      <span id="ds-lbl">Activeer Draaischijf</span>
-    </button>
+      <button class="slide-pijl slide-pijl-links" id="pijl-links" aria-label="Vorige foto">&#8592;</button>
+      <button class="slide-pijl slide-pijl-rechts" id="pijl-rechts" aria-label="Volgende foto">&#8594;</button>
+
+      <div class="slide-teller" id="slide-teller">1 / 6</div>
+
+      <div class="slide-stippen">
+        <button class="stip actief" data-index="0" aria-label="Slide 1"></button>
+        <button class="stip" data-index="1" aria-label="Slide 2"></button>
+        <button class="stip" data-index="2" aria-label="Slide 3"></button>
+        <button class="stip" data-index="3" aria-label="Slide 4"></button>
+        <button class="stip" data-index="4" aria-label="Slide 5"></button>
+        <button class="stip" data-index="5" aria-label="Slide 6"></button>
+      </div>
+
+    </div>
+
+    <div class="slide-thumbnails" id="slide-thumbnails">
+      <div class="thumb actief" data-index="0">
+        <img src="img/_.._DAT_Collectie_images_S_7230_000.jpg" alt="Thumbnail 1">
+      </div>
+      <div class="thumb" data-index="1">
+        <img src="img/rihannacropoverfest2019v1-7.avif" alt="Thumbnail 2">
+      </div>
+      <div class="thumb" data-index="2">
+        <img src="img/16927084-7323991-image-m-107_1565043646559.jpg" alt="Thumbnail 3">
+      </div>
+      <div class="thumb" data-index="3">
+        <img src="img/16922598-7323991-image-m-56_1565034523427.jpg" alt="Thumbnail 4">
+      </div>
+      <div class="thumb" data-index="4">
+        <img src="img/2269272d0e294492d9a92a393f4ec8a3.webp" alt="Thumbnail 5">
+      </div>
+      <div class="thumb" data-index="5">
+        <img src="img/2a5360ee3a79710c_BGUS_1677023_013.webp" alt="Thumbnail 6">
+      </div>
+    </div>
+
   </div>
+
 </section>
 
+<section id="over" class="sectie sectie-licht">
 
-<!-- FEATHER DIVIDER (light) -->
-<div class="fdiv" style="background:var(--blush);color:var(--lpink);" aria-hidden="true">
-  <div class="rule"></div>
-  <svg viewBox="0 0 32 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M16 2C9 14 7 32 10 50c1.5 6 4 11 6 13 2-2 4.5-7 6-13C25 32 23 14 16 2Z"/>
-    <line x1="16" y1="2" x2="16" y2="63" stroke="rgba(255,255,255,.3)" stroke-width=".7" fill="none"/>
-  </svg>
-  <svg viewBox="0 0 32 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="transform:scaleX(-1)">
-    <path d="M16 2C9 14 7 32 10 50c1.5 6 4 11 6 13 2-2 4.5-7 6-13C25 32 23 14 16 2Z"/>
-    <line x1="16" y1="2" x2="16" y2="63" stroke="rgba(255,255,255,.3)" stroke-width=".7" fill="none"/>
-  </svg>
-  <div class="rule"></div>
-</div>
-
-
-<!-- ══════════════════════════════════════════
-     §3 OVER DE JURK
-══════════════════════════════════════════ -->
-<section id="over-de-jurk">
   <div class="over-grid">
 
-    <!-- Image left -->
-    <!-- FOTO-SWAP: vervang <div class="jurk-ph"> met <img src="jurk-info.jpg" alt="..."> -->
-    <div class="rev">
-      <div class="jurk-frame">
-        <div class="jurk-ph">
-          <svg viewBox="0 0 110 160" width="90" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="38" y="52" width="34" height="44" rx="4" fill="rgba(194,24,91,.16)" stroke="rgba(194,24,91,.44)" stroke-width="1.5"/>
-            <path d="M38 96Q28 122 16 144L94 144Q82 122 72 96Z" fill="rgba(255,182,193,.3)" stroke="rgba(194,24,91,.32)" stroke-width="1.5"/>
-            <path d="M20 126C8 118 2 104 6 92" stroke="rgba(255,105,180,.5)" stroke-width="2" fill="none"/>
-            <path d="M16 136C2 130-2 114 2 100" stroke="rgba(255,182,193,.42)" stroke-width="1.5" fill="none"/>
-            <path d="M90 126C102 118 108 104 104 92" stroke="rgba(255,105,180,.5)" stroke-width="2" fill="none"/>
-            <path d="M94 136C108 130 112 114 108 100" stroke="rgba(255,182,193,.42)" stroke-width="1.5" fill="none"/>
-            <path d="M38 52Q55 42 72 52" stroke="rgba(194,24,91,.48)" stroke-width="1.5" fill="none"/>
-            <circle cx="55" cy="28" r="14" fill="rgba(255,182,193,.24)" stroke="rgba(194,24,91,.38)" stroke-width="1"/>
-            <circle cx="55" cy="22" r="8" fill="rgba(255,105,180,.2)" stroke="rgba(194,24,91,.28)" stroke-width="1"/>
-          </svg>
-        </div>
-        <div class="img-tag">
-          <span class="obj-n">Inventarisnummer · 7230 · Amsterdam Museum</span>
-          <span class="obj-t">Zijden korsetjurk met struisvogelveren</span>
+    <div class="over-foto">
+      <div class="foto-kader">
+        <img src="img/_.._DAT_Collectie_images_S_7230_000.jpg" alt="Zijden korsetjurk met struisvogelveren — Amsterdam Museum">
+        <div class="foto-label">
+          <span class="obj-nummer">Inventarisnummer · 7230 · Amsterdam Museum</span>
+          <span class="obj-naam">Zijden korsetjurk met struisvogelveren</span>
         </div>
       </div>
     </div>
 
-    <!-- Text right -->
-    <div class="over-text rev d2">
-      <span class="sec-tag">Museum Collectie</span>
-      <h2 class="over-heading">Over de<br><em>Jurk</em></h2>
+    <div class="over-tekst">
+      <span class="label">Museum Collectie</span>
+      <h2 class="over-titel">Over de<br><em>Jurk</em></h2>
 
-      <table class="meta-t">
-        <tr><td>Ontwerper</td>       <td>David Laport (geb. 1986), Amsterdam</td></tr>
-        <tr><td>Collectie</td>       <td>Sculptural Flower SS19</td></tr>
-        <tr><td>Jaar</td>            <td>2018</td></tr>
-        <tr><td>Materiaal</td>       <td>Zijde, struisvogelveren</td></tr>
-        <tr><td>Techniek</td>        <td>Korsette constructie, handgenaaid</td></tr>
-        <tr><td>Categorie</td>       <td>Dameskleding · Japon · Textielcollectie</td></tr>
-        <tr><td>Inventarisnummer</td><td>7230</td></tr>
-        <tr><td>Instelling</td>      <td>Amsterdam Museum</td></tr>
-        <tr><td>Verworven</td>       <td>Aangekocht, 2022</td></tr>
-        <tr><td>Locatie</td>         <td>In depot</td></tr>
+      <table class="info-tabel">
+        <tr>
+          <td>Ontwerper</td>
+          <td>David Laport (geb. 1986), Amsterdam</td>
+        </tr>
+        <tr>
+          <td>Jaar</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>Materiaal</td>
+          <td>Zijde, struisvogelveren</td>
+        </tr>
+        <tr>
+          <td>Techniek</td>
+          <td>Korsette constructie, handgenaaid</td>
+        </tr>
+        <tr>
+        <tr>
+          <td>Instelling</td>
+          <td>Amsterdam Museum</td>
+        </tr>
       </table>
 
-      <p class="desc-block">
-        De jurk is afkomstig van de openingsshow van Amsterdam Fashion Week 2018. David Laport, door De Volkskrant uitgeroepen tot 'modetalent van het jaar' (2015), ontwerpt voor artiesten als Solange Knowles, Sia en Rihanna. Rihanna droeg deze roze struisvogelvederjurk op het Crop Over Festival in Barbados, waarna de jurk als 'flamingo-jurk' wereldwijd viral ging op social media.
+      <p class="beschrijving">
+        De jurk is afkomstig van de openingsshow van Amsterdam Fashion Week 2018. 
+        David Laport, door De Volkskrant uitgeroepen tot 'modetalent van het jaar' (2015), 
+        ontwerpt voor artiesten als Solange Knowles, Sia en Rihanna. Rihanna 
+        droeg deze roze struisvogelvederjurk op het Crop Over Festival in Barbados, waarna de jurk als 'flamingo jurk' wereldwijd viral ging op social media.
       </p>
     </div>
+
   </div>
+
 </section>
 
+<section id="galerij" class="sectie sectie-roze">
 
-<!-- ══════════════════════════════════════════
-     §4 VIRAAL MOMENT
-══════════════════════════════════════════ -->
-<section id="viraal">
-  <div class="viraal-inner">
+  <div class="sectie-hoofd">
+    <span class="label">Foto's &amp; Beelden</span>
+    <h2 class="sectie-titel donker">Galerij</h2>
+  </div>
 
-    <div class="pull-q rev">
-      <q>De flamingo-jurk</q>
+  <div class="galerij-grid">
+
+    <div class="galerij-item groot">
+      <img src="img/_.._DAT_Collectie_images_S_7230_000.jpg" alt="Museumfoto — Zijden korsetjurk">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/rihannacropoverfest2019v1-7.avif" alt="Rihanna — Barbados Crop Over 2018">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/GAdesign.jfif" alt="GA Design — David Laport">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/2269272d0e294492d9a92a393f4ec8a3.webp" alt="Flamingo-jurk detail">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/2a5360ee3a79710c_BGUS_1677023_013.webp" alt="Flamingo-jurk volledige look">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/16927084-7323991-image-m-107_1565043646559.jpg" alt="Flamingo-jurk detail 2">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/16922598-7323991-image-m-56_1565034523427.jpg" alt="Flamingo-jurk perspectief">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/647317f14425d306ce4b80693c9f909a.jpg" alt="Mode inspiratie">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/designers-jean-paul-gaultier-and-valentino-show-off-their-latest-styles-in-paris.webp" alt="Mode ontwerpers Paris">
+    </div>
+
+    <div class="galerij-item">
+      <img src="img/3f2e2e_eaf86443efa34b65a5083527d6d196d0~mv2_d_3648_5472_s_4_2.avif" alt="David Laport collectie detail">
+    </div>
+
+  </div>
+
+</section>
+
+<section id="video" class="sectie sectie-donker">
+
+  <div class="sectie-hoofd">
+    <span class="label">Beeldmateriaal</span>
+    <h2 class="sectie-titel wit">Video</h2>
+  </div>
+
+  <div class="video-omslag">
+    <video
+      class="video-speler"
+      controls
+      playsinline
+      preload="metadata"
+      poster="img/_.._DAT_Collectie_images_S_7230_000.jpg"
+    >
+      <source src="video/MicrosoftTeams-video.mp4" type="video/mp4">
+      <p>Je browser ondersteunt geen videoweergave. <a href="video/MicrosoftTeams-video.mp4">Download de video</a>.</p>
+    </video>
+  </div>
+
+</section>
+
+<section id="viraal" class="sectie sectie-donker">
+
+  <div class="viraal-binnenste">
+
+    <blockquote class="groot-citaat">
+      <q>De flamingo jurk</q>
       <cite>Sociale media · Barbados · 2018</cite>
-    </div>
+    </blockquote>
 
-    <div class="timeline">
+    <div class="tijdlijn">
 
-      <div class="tl-item rev">
-        <div class="tl-c">
+      <div class="tijdlijn-item">
+        <div class="tijdlijn-midden">
+          <div class="tijdlijn-punt"></div>
+          <div class="tijdlijn-jaar">Begin 2018</div>
+        </div>
+        <div class="tijdlijn-inhoud">
           <h3>Ontwerp &amp; Creatie</h3>
-          <p>David Laport ontwerpt de zijden korsetjurk in zijn Amsterdams atelier — struisvogelveren in roze-wit kleurverloop, vakmanschap op zijn hoogst.</p>
+          <p>David Laport ontwerpt de zijden korsetjurk in zijn Amsterdams atelier struisvogelveren in roze wit kleurverloop, vakmanschap op zijn hoogst.</p>
         </div>
-        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-year">Begin 2018</div></div>
-        <div class="tl-emp"></div>
       </div>
 
-      <div class="tl-item rev d1">
-        <div class="tl-emp"></div>
-        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-year">Aug 2018</div></div>
-        <div class="tl-c">
+      <div class="tijdlijn-item">
+        <div class="tijdlijn-midden">
+          <div class="tijdlijn-punt"></div>
+          <div class="tijdlijn-jaar">Aug 2018</div>
+        </div>
+        <div class="tijdlijn-inhoud">
           <h3>Barbados Carnival</h3>
-          <p>Rihanna draagt de jurk op het Crop Over Festival in haar geboorteland. De veren exploderen om haar heen terwijl ze door de stoet schrijdt.</p>
+          <p>Rihanna draagt de jurk op het Crop Over Festival in haar geboorteland. 
+            De veren exploderen om haar heen terwijl ze door de stoet schrijdt.</p>
         </div>
       </div>
 
-      <div class="tl-item rev d2">
-        <div class="tl-c">
+      <div class="tijdlijn-item">
+        <div class="tijdlijn-midden">
+          <div class="tijdlijn-punt"></div>
+          <div class="tijdlijn-jaar">2018-2019</div>
+        </div>
+        <div class="tijdlijn-inhoud">
           <h3>Viraal Fenomeen</h3>
-          <p>Foto's en video's gaan wereldwijd viral. Social media doopt de jurk 'de flamingo-jurk'. Miljoenen impressies op Instagram, Twitter en TikTok.</p>
+          <p>Foto's en video's gaan wereldwijd viral. Social media doopt de jurk 'de flamingo jurk'. 
+            Miljoenen impressies op Instagram, Twitter en TikTok.</p>
         </div>
-        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-year">2018–2019</div></div>
-        <div class="tl-emp"></div>
       </div>
 
-      <div class="tl-item rev d3">
-        <div class="tl-emp"></div>
-        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-year">Heden</div></div>
-        <div class="tl-c">
+      <div class="tijdlijn-item">
+        <div class="tijdlijn-midden">
+          <div class="tijdlijn-punt"></div>
+          <div class="tijdlijn-jaar">Heden</div>
+        </div>
+        <div class="tijdlijn-inhoud">
           <h3>Museum Collectie</h3>
-          <p>De jurk maakt deel uit van de vaste collectie van het Fashion Museum — bewijs van de culturele betekenis van Nederlands modeontwerp op wereldschaal.</p>
+          <p>De jurk maakt deel uit van de vaste collectie van het Amsterdam Museum bewijs van de culturele betekenis van Nederlands modeontwerp op wereldschaal.</p>
         </div>
       </div>
 
     </div>
+
   </div>
+
 </section>
 
+<section id="ontwerper" class="sectie sectie-licht">
 
-<!-- FEATHER DIVIDER (cream) -->
-<div class="fdiv" style="background:var(--cream);color:var(--lpink);" aria-hidden="true">
-  <div class="rule"></div>
-  <svg viewBox="0 0 32 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M16 2C9 14 7 32 10 50c1.5 6 4 11 6 13 2-2 4.5-7 6-13C25 32 23 14 16 2Z"/>
-    <line x1="16" y1="2" x2="16" y2="63" stroke="rgba(255,255,255,.3)" stroke-width=".7" fill="none"/>
-  </svg>
-  <div class="rule"></div>
-</div>
+  <div class="ontwerper-grid">
 
-
-<!-- ══════════════════════════════════════════
-     §5 DE ONTWERPER
-══════════════════════════════════════════ -->
-<section id="de-ontwerper">
-  <div class="ont-inner">
-
-    <!-- Portrait left -->
-    <!-- FOTO-SWAP: vervang de SVG-placeholder met <img src="laport-portret.jpg" alt="David Laport"> -->
-    <div class="rev">
-      <div class="port-frame">
-        <span class="port-ph-tag">Portret</span>
-        <svg viewBox="0 0 100 140" width="86" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="46" r="24" stroke="rgba(194,24,91,.33)" stroke-width="1.5" fill="rgba(194,24,91,.07)"/>
-          <path d="M26 110c0-26 48-26 48 0L76 136 24 136Z" stroke="rgba(194,24,91,.33)" stroke-width="1.5" fill="rgba(194,24,91,.07)"/>
-        </svg>
-      </div>
-      <p class="port-cap">David Laport · Modeontwerper · Amsterdam</p>
+    <div class="ontwerper-foto">
+      <img src="img/david-laport.png" alt="David Laport — Modeontwerper Amsterdam">
+      <p class="foto-onderschrift">David Laport · Modeontwerper · Amsterdam</p>
     </div>
 
-    <!-- Bio right -->
-    <div class="bio rev d2">
-      <span class="sec-tag">De Maker</span>
-      <h2 class="bio-title">David<br>Laport</h2>
-      <p class="bio-sub">Amsterdams modeontwerper · Avant-garde · Theatraal</p>
+    <div class="ontwerper-bio">
+      <span class="label">De Maker</span>
+      <h2 class="bio-titel">David<br>Laport</h2>
+      <p class="bio-subtitel">Amsterdams modeontwerper · Avant-garde · Theatraal</p>
 
       <p>David Laport is een van de meest opvallende stemmen in de hedendaagse Nederlandse mode. Zijn ontwerpen zijn theatraal, technisch verbluffend en altijd doordrenkt van een eigenaardig gevoel voor humor en drama.</p>
+
       <p>Opgeleid aan het AMFI (Amsterdam Fashion Institute), heeft Laport een unieke designtaal ontwikkeld die grenst aan haute couture maar geworteld blijft in een avant-garde sensibiliteit. Zijn werk verkent de relatie tussen het lichaam, het kledingstuk en de ruimte eromheen.</p>
-      <p>De zijden korsetjurk met struisvogelveren is een kenmerkend voorbeeld van zijn stijl: een strak, architectonisch corsage dat uitbarst in een explosie van weelderige veren — drama als kleedkeuze, schoonheid als statement.</p>
 
-      <div class="bio-facts">
-        <div class="bio-fact"><span class="bf-lbl">Gebaseerd in</span><span class="bf-val">Amsterdam, Nederland</span></div>
-        <div class="bio-fact"><span class="bf-lbl">Stijl</span><span class="bf-val">Avant-garde, theatraal, haute couture</span></div>
-        <div class="bio-fact"><span class="bf-lbl">Opleiding</span><span class="bf-val">AMFI — Amsterdam Fashion Institute</span></div>
-        <div class="bio-fact"><span class="bf-lbl">Bekend om</span><span class="bf-val">Spectaculaire vedergewaden &amp; avondkleding</span></div>
-      </div>
-    </div>
-  </div>
-</section>
+      <p>De zijden korsetjurk met struisvogelveren is een kenmerkend voorbeeld van zijn stijl: een strak, architectonisch corsage dat uitbarst in een explosie van weelderige veren drama als kleedkeuze, schoonheid als statement.</p>
 
-
-<!-- ══════════════════════════════════════════
-     §6 INSTALLATIE DIAGRAM
-══════════════════════════════════════════ -->
-<section id="installatie">
-  <div class="inst-inner">
-    <div class="sec-head rev">
-      <span class="sec-tag" style="color:var(--rose);">Tentoonstellingsinrichting</span>
-      <h2 class="sec-title sec-title--dark">De Installatie</h2>
-    </div>
-    <p class="inst-sub rev d1">Hoe de jurk tentoongesteld wordt — een blik achter de schermen</p>
-
-    <div class="diag-wrap rev d2">
-      <div id="diag-tip" class="diag-tip"></div>
-
-      <svg class="diag-svg" id="diag-svg" viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="bL" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stop-color="rgba(255,105,180,.24)"/>
-            <stop offset="100%" stop-color="rgba(255,105,180,0)"/>
-          </linearGradient>
-          <linearGradient id="bR" x1="1" y1="0" x2="0" y2="0">
-            <stop offset="0%" stop-color="rgba(194,24,91,.2)"/>
-            <stop offset="100%" stop-color="rgba(194,24,91,0)"/>
-          </linearGradient>
-          <radialGradient id="fg" cx="50%" cy="30%" r="55%">
-            <stop offset="0%" stop-color="rgba(255,182,193,.16)"/>
-            <stop offset="100%" stop-color="rgba(255,182,193,0)"/>
-          </radialGradient>
-          <radialGradient id="pg" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="rgba(255,105,180,.22)"/>
-            <stop offset="100%" stop-color="rgba(255,105,180,0)"/>
-          </radialGradient>
-        </defs>
-
-        <!-- Background -->
-        <rect width="700" height="560" fill="#f9f7f8"/>
-        <text x="350" y="28" text-anchor="middle" fill="rgba(26,10,14,.28)"
-              font-size="9.5" font-family="Lato,sans-serif" letter-spacing="3">
-          INSTALLATIE-DIAGRAM · MUSEUM PRESENTATIE · RIJKSMUSEUM
-        </text>
-
-        <!-- ── LEFT SPOTLIGHT ── -->
-        <!-- Pole -->
-        <line x1="116" y1="70" x2="205" y2="210" stroke="rgba(26,10,14,.22)" stroke-width="2.5" stroke-linecap="round"/>
-        <!-- Kap housing -->
-        <rect x="83" y="42" width="66" height="32" rx="5"
-              fill="rgba(26,10,14,.13)" stroke="rgba(26,10,14,.3)" stroke-width="1.5"
-              class="hs" data-tip="kap"
-              data-desc="Kap — Behuizing van de spotlight. Stuurt het licht en voorkomt verstrooiing naar de omgeving."/>
-        <!-- Filter gel -->
-        <rect x="90" y="49" width="52" height="18" rx="3"
-              fill="rgba(255,105,180,.3)" stroke="rgba(255,105,180,.62)" stroke-width="1"
-              class="hs" data-tip="filter"
-              data-desc="Filter — Roze theatergel voor de spotlight. Transformeert wit licht in een warme roze gloed die de veren doet oplichten."/>
-        <text x="116" y="88" text-anchor="middle" fill="rgba(26,10,14,.36)"
-              font-size="7.5" font-family="Lato,sans-serif" letter-spacing="2">LICHT L</text>
-        <!-- Beam -->
-        <polygon points="116,74 232,424 168,424" fill="url(#bL)" opacity=".9"
-                 class="hs" data-tip="licht"
-                 data-desc="Licht — Linker studio spotlight met roze kleurfilter. Verlicht de jurk van linksboven voor volume en dramatisch schaduwspel."/>
-        <!-- Annotations left -->
-        <line x1="83" y1="58" x2="56" y2="46" stroke="rgba(26,10,14,.18)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="4" y="45" fill="rgba(26,10,14,.42)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">licht</text>
-        <line x1="83" y1="44" x2="56" y2="32" stroke="rgba(26,10,14,.16)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="4" y="31" fill="rgba(26,10,14,.38)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">kap</text>
-        <line x1="90" y1="58" x2="64" y2="68" stroke="rgba(255,105,180,.4)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="2" y="72" fill="rgba(194,24,91,.52)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">filter</text>
-
-        <!-- ── RIGHT SPOTLIGHT ── -->
-        <line x1="584" y1="70" x2="495" y2="210" stroke="rgba(26,10,14,.22)" stroke-width="2.5" stroke-linecap="round"/>
-        <rect x="551" y="42" width="66" height="32" rx="5"
-              fill="rgba(26,10,14,.13)" stroke="rgba(26,10,14,.3)" stroke-width="1.5"
-              class="hs" data-tip="kap"
-              data-desc="Kap — Behuizing van de spotlight. Stuurt het licht en voorkomt verstrooiing naar de omgeving."/>
-        <rect x="558" y="49" width="52" height="18" rx="3"
-              fill="rgba(255,105,180,.3)" stroke="rgba(255,105,180,.62)" stroke-width="1"
-              class="hs" data-tip="filter"
-              data-desc="Filter — Roze theatergel voor de spotlight. Transformeert wit licht in een warme roze gloed die de veren doet oplichten."/>
-        <text x="584" y="88" text-anchor="middle" fill="rgba(26,10,14,.36)"
-              font-size="7.5" font-family="Lato,sans-serif" letter-spacing="2">LICHT R</text>
-        <polygon points="584,74 532,424 468,424" fill="url(#bR)" opacity=".9"
-                 class="hs" data-tip="licht"
-                 data-desc="Licht — Rechter studio spotlight met roze kleurfilter. Verlicht de jurk van rechtsboven voor diepte en drama."/>
-        <!-- Annotations right -->
-        <line x1="617" y1="58" x2="644" y2="46" stroke="rgba(26,10,14,.18)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="648" y="45" fill="rgba(26,10,14,.42)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">licht</text>
-        <line x1="617" y1="44" x2="644" y2="32" stroke="rgba(26,10,14,.16)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="648" y="31" fill="rgba(26,10,14,.38)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">kap</text>
-
-        <!-- ── FLOOR GLOW ── -->
-        <ellipse cx="350" cy="432" rx="126" ry="36" fill="url(#pg)"/>
-
-        <!-- ── FIGURE — ambient bg ── -->
-        <ellipse cx="350" cy="290" rx="136" ry="195" fill="url(#fg)"/>
-
-        <!-- Headpiece (hoedier) -->
-        <g class="hs" data-tip="hoedier"
-           data-desc="Hoedier — Klein verenhoedstuk bovenop de paspop. Verlengt het silhouet en voegt theatrale hoogte toe.">
-          <circle cx="340" cy="112" r="11" fill="rgba(255,105,180,.36)" stroke="rgba(194,24,91,.44)" stroke-width=".8"/>
-          <circle cx="350" cy="104" r="13" fill="rgba(255,182,193,.44)" stroke="rgba(194,24,91,.48)" stroke-width=".8"/>
-          <circle cx="360" cy="112" r="11" fill="rgba(255,105,180,.33)" stroke="rgba(194,24,91,.4)"  stroke-width=".8"/>
-          <circle cx="350" cy="118" r="9"  fill="rgba(255,240,245,.5)" stroke="rgba(194,24,91,.28)" stroke-width=".8"/>
-        </g>
-        <!-- Annotation: hoedier -->
-        <line x1="366" y1="108" x2="408" y2="96" stroke="rgba(194,24,91,.28)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="412" y="99" fill="rgba(26,10,14,.42)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">hoedier</text>
-
-        <!-- Mannequin head -->
-        <circle cx="350" cy="150" r="20" fill="rgba(220,200,210,.6)" stroke="rgba(26,10,14,.18)" stroke-width="1"/>
-
-        <!-- Corsage / bodice -->
-        <rect x="322" y="170" width="56" height="58" rx="5"
-              fill="rgba(255,182,193,.68)" stroke="rgba(194,24,91,.52)" stroke-width="1.5"
-              class="hs" data-tip="jurk"
-              data-desc="Jurk — De zijden korsetjurk. De corsette constructie omsluit de taille strak, terwijl de rok uitwaaierende struisvogelveren draagt."/>
-        <line x1="322" y1="198" x2="378" y2="198" stroke="rgba(194,24,91,.35)" stroke-width=".8" stroke-dasharray="3,2"/>
-        <!-- Annotation: jurk -->
-        <line x1="378" y1="188" x2="418" y2="180" stroke="rgba(26,10,14,.18)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="422" y="183" fill="rgba(26,10,14,.42)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">jurk</text>
-
-        <!-- Skirt base -->
-        <path d="M322 228Q306 272 282 314Q260 344 246 365L454 365Q440 344 418 314Q394 272 378 228Z"
-              fill="rgba(255,182,193,.42)" stroke="rgba(194,24,91,.28)" stroke-width="1.5"
-              class="hs" data-tip="jurk"
-              data-desc="Jurk — De geplooide rok is opgebouwd uit lagen struisvogelveren van diep roze tot bijna wit."/>
-
-        <!-- Jup feathers LEFT -->
-        <path d="M256 344C224 322 186 312 162 294" stroke="rgba(255,105,180,.65)" stroke-width="3.5" fill="none" stroke-linecap="round"
-              class="hs" data-tip="jup" data-desc="Jup — De buitenste laag struisvogelveren die uitwaaiert. Geeft de jurk haar dramatische, explosieve volume."/>
-        <path d="M250 354C214 342 176 334 152 318" stroke="rgba(255,105,180,.52)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
-        <path d="M246 363C210 357 174 350 152 336" stroke="rgba(255,182,193,.46)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-        <path d="M244 371C210 368 176 364 155 354" stroke="rgba(255,182,193,.35)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-        <path d="M244 378C212 376 180 374 160 366" stroke="rgba(255,240,245,.3)"  stroke-width="1.2" fill="none" stroke-linecap="round"/>
-        <!-- Jup annotation -->
-        <line x1="168" y1="300" x2="144" y2="284" stroke="rgba(194,24,91,.28)" stroke-width=".8" stroke-dasharray="4,3"/>
-        <text x="100" y="283" fill="rgba(26,10,14,.42)" font-size="9.5" font-family="Lato,sans-serif" letter-spacing="1">jup</text>
-
-        <!-- Jup feathers RIGHT -->
-        <path d="M444 344C476 322 514 312 538 294" stroke="rgba(255,105,180,.65)" stroke-width="3.5" fill="none" stroke-linecap="round"
-              class="hs" data-tip="jup" data-desc="Jup — De buitenste laag struisvogelveren die uitwaaiert. Geeft de jurk haar dramatische, explosieve volume."/>
-        <path d="M450 354C486 342 524 334 548 318" stroke="rgba(255,105,180,.52)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
-        <path d="M454 363C490 357 526 350 548 336" stroke="rgba(255,182,193,.46)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-        <path d="M456 371C490 368 524 364 545 354" stroke="rgba(255,182,193,.35)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-        <path d="M456 378C488 376 520 374 540 366" stroke="rgba(255,240,245,.3)"  stroke-width="1.2" fill="none" stroke-linecap="round"/>
-
-        <!-- ── PODIUM ── -->
-        <ellipse cx="350" cy="424" rx="88" ry="22" fill="rgba(26,10,14,.1)" stroke="rgba(26,10,14,.2)" stroke-width="1.5"
-                 class="hs" data-tip="podium" data-desc="Podium — Verhoogd circulair platform. Plaatst de jurk op hoogte en geeft de presentatie autoriteit en zichtbaarheid."/>
-        <rect x="262" y="424" width="176" height="28" fill="rgba(26,10,14,.07)" stroke="rgba(26,10,14,.16)" stroke-width="1"/>
-        <ellipse cx="350" cy="452" rx="88" ry="22" fill="rgba(26,10,14,.1)" stroke="rgba(26,10,14,.16)" stroke-width="1"
-                 class="hs" data-tip="podium" data-desc="Podium — Verhoogd circulair platform. Plaatst de jurk op hoogte en geeft de presentatie autoriteit en zichtbaarheid."/>
-        <text x="350" y="441" text-anchor="middle" fill="rgba(26,10,14,.3)"
-              font-size="7.5" font-family="Lato,sans-serif" letter-spacing="2">PODIUM</text>
-
-        <!-- Draaischijf rotation arrows -->
-        <path d="M282 420 A 68 10 0 0 1 404 412" stroke="rgba(194,24,91,.52)"
-              stroke-width="1.5" fill="none" stroke-dasharray="5,4"
-              class="hs" data-tip="draaischijf"
-              data-desc="Draaischijf — Motorisch aangedreven draaiplateau dat de paspop langzaam 360° ronddraait. Bezoekers bewonderen de jurk van alle kanten."/>
-        <polygon points="406,409 416,414 406,420" fill="rgba(194,24,91,.52)"/>
-        <text x="350" y="467" text-anchor="middle" fill="rgba(194,24,91,.42)"
-              font-size="7.5" font-family="Lato,sans-serif" letter-spacing="2">DRAAISCHIJF</text>
-        <text x="350" y="480" text-anchor="middle" fill="rgba(194,24,91,.3)"
-              font-size="8.5" font-family="Lato,sans-serif">draait langzaam 360°</text>
-
-        <!-- Border -->
-        <rect x="4" y="4" width="692" height="552" fill="none" stroke="rgba(194,24,91,.11)" stroke-width="1"/>
-      </svg>
-
-      <!-- Legend -->
-      <div class="diag-legend">
-        <div class="legend-item">
-          <div class="l-sw" style="background:rgba(255,105,180,.3);border-color:rgba(255,105,180,.55);"></div>
-          Verlichting
+      <div class="bio-feiten">
+        <div class="bio-feit">
+          <span class="feit-label">Gebaseerd in</span>
+          <span class="feit-waarde">Amsterdam, Nederland</span>
         </div>
-        <div class="legend-item">
-          <div class="l-sw" style="background:rgba(255,182,193,.5);border-color:rgba(194,24,91,.42);"></div>
-          Jurk &amp; Veren
+        <div class="bio-feit">
+          <span class="feit-label">Stijl</span>
+          <span class="feit-waarde">Avant-garde, theatraal, haute couture</span>
         </div>
-        <div class="legend-item">
-          <div class="l-sw" style="background:rgba(26,10,14,.08);border-color:rgba(26,10,14,.24);"></div>
-          Installatie
+        <div class="bio-feit">
+          <span class="feit-label">Opleiding</span>
+          <span class="feit-waarde">AMFI Amsterdam Fashion Institute</span>
         </div>
-        <div class="legend-item" style="color:rgba(194,24,91,.58);">
-          <span style="font-size:11px;margin-right:2px;">✦</span>
-          Hover voor informatie
+        <div class="bio-feit">
+          <span class="feit-label">Bekend om</span>
+          <span class="feit-waarde">Spectaculaire vedergewaden &amp; avondkleding</span>
         </div>
       </div>
     </div>
+
   </div>
+
 </section>
 
-
-<!-- FOOTER -->
-<footer>
-  <p class="f-logo">Rijksmuseum · Fashion Museum</p>
-  <p class="f-title">David Laport — Zijden korsetjurk met struisvogelveren, 2018</p>
-  <div class="f-rule"></div>
-  <p class="f-meta">
+<footer class="footer">
+  <p class="footer-logo">Amsterdam Museum · Fashion Collectie</p>
+  <p class="footer-titel">David Laport Zijden korsetjurk met struisvogelveren, 2018</p>
+  <div class="footer-lijn"></div>
+  <p class="footer-info">
     Amsterdam Museum · Textielcollectie · Inventarisnummer 7230<br>
-    &copy; David Laport · Alle rechten voorbehouden<br>
-    Rijksmuseum · Amsterdam
+    &copy; David Laport · Alle rechten voorbehouden
   </p>
 </footer>
-
 
 <script src="main.js"></script>
 
